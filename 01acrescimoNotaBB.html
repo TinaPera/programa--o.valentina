@@ -1,0 +1,20 @@
+<script>
+const notaAntes = Number(prompt("Informe a nota antes da ajuda"))
+const notaDepois = Number(prompt("Informe a nota depois da ajuda"))
+
+const diferenca = notaDepois - notaAntes
+
+let acrescimo
+if (diferenca <= 0) {
+    acrescimo = 0
+} else  {
+    acrescimo = diferenca / 4
+}
+ 
+document.write(`o acrescimo vai ser de ${acrescimo}`)
+
+    
+
+
+    
+</script>

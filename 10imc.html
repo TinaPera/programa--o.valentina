@@ -1,0 +1,41 @@
+<script>
+    const peso = Number(prompt("Informe o seu peso"))
+    const altura = Number(prompt("Informe sua altura"))
+
+    //processamento
+    const imc = peso / (altura * altura)
+
+    if (imc < 18.5) {
+        document.write("Abaixo do peso")
+    } else if (imc < 24.5) {
+        document.write("Peso normal")
+    }
+    if (imc >25 && imc <29.9) {
+        document.write("Acima do peso(sobrepeso)")
+    }
+    if (imc >30  && imc <34.9) {
+        document.write("Obesidade I")
+    }
+    if (imc >35 && imc <39.9) {
+        document.write("Obesidade II")
+    }
+    if (imc >40) {
+        document.write("Obesidade III")
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
